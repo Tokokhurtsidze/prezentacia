@@ -78,3 +78,149 @@
     color: #262626;
     border-radius: 40px;
   }
+  /* First Section */
+
+.background {
+    background-image: url(./forexp/Mask\ group.jpg);
+    width: 100%;
+    height: 559px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+  }
+  .about {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 57px;
+  }
+   .mini-title {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    /* line-height: 18px; */
+    line-height: 5px;
+    color: #ffff;
+    margin-bottom: 22px;
+    
+  } 
+  
+  
+   
+  .section-title {
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    color: #ffff;
+    margin-bottom: 19px;
+  }
+  span {
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 69px;
+    background: linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffff;
+  }
+  
+  #section-one{
+    margin-top: 100px;
+    margin-bottom: 73px;
+  }
+  .first-section {
+    margin-top: 160px;
+    margin-bottom: 73px;
+    
+    /*Second Section  */
+  
+  
+  }
+  .second-section-title {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #262626;
+    
+  }
+  .click {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #4ce0d7;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #262626;
+    margin: 29px 29px;
+    transition: 0.3s;
+  }
+  .click:hover {
+    border: 2px solid #4ce0d7;
+    background-color: #ffff;
+  }
+  .underwear h3 {
+    margin-top: 10px;
+  }
+  
+  .underwear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section-background {
+    height: 291px;
+    width: 204px;
+    border-radius: 20px;
+    background-color: #ffff;
+    margin-top: 48px;
+    
+  }
+  .section-background:hover {
+    transform: translateY(-15px);
+  }
+  .gather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1173px; 
+    gap: 10px;
+  }
+  
+  .underwear img {
+    margin-top: 51px;
+    height: 103px;
+    width: 103px;
+  }
+  .second-section {
+    width: 100%;
+    max-width: 1272px;
+    margin: 87px auto; 
+    
+  }
+  .cards {
+    
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1176px;
+    margin: 0 auto;
+    
+  }
